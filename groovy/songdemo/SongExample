@@ -1,0 +1,10 @@
+package songdemo
+
+//import bean.Song
+
+class SongExample {
+    static void main(args) {
+        def song = new Song(name:"Happy", artist:"Bob", genre:"Jazz")
+        println song
+    }
+}

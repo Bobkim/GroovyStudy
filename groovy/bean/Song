@@ -1,0 +1,7 @@
+package bean
+
+class Song {
+    def name
+    def artist
+    def genre
+}

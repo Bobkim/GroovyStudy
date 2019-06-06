@@ -1,0 +1,30 @@
+//class Demo {
+//    static void main(args) {
+//        def message = "Super star"
+//        println "Hello $message"
+//        println message.class
+//        message = 12
+//        println message.class
+
+println "======"
+
+//repeat("Hello World", 2)
+//repeat("Goodbye sunshine", 4)
+//repeat("foo")
+//    }
+
+//}
+def repeat(message, repeat = 5) {
+    for (i in 1..repeat) {
+        println message
+    }
+}
+
+def range = 0..4
+println range.class
+assert range instanceof List
+
+def coll = ["Groovy", "Java", "Ruby"]
+println coll.class
+assert  coll instanceof Collection
+assert coll instanceof ArrayList
